@@ -50,7 +50,7 @@ class MainActivity : ComponentActivity() {
         return lista
     }
 }
-
+//xd
 @Composable
 fun PantallaCliente(onQueryKardex: () -> List<String>, onQueryCarga: () -> List<String>) {
     var resultados by remember { mutableStateOf(listOf<String>()) }
