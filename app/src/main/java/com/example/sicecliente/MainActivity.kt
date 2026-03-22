@@ -32,7 +32,7 @@ class MainActivity : ComponentActivity() {
         val lista = mutableListOf<String>()
         val uri = Uri.parse(uriString)
 
-        // Aquí ocurre la magia del ContentResolver
+       
         val cursor: Cursor? = contentResolver.query(uri, null, null, null, null)
 
         cursor?.use {
